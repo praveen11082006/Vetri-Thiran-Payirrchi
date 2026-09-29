@@ -1,0 +1,15 @@
+{
+  "label": "Institution Details",
+  "name": "u_institution_details",
+  "extends": null,
+  "columns": [
+    { "label": "Student Roll Number", "element": "u_student_roll_number", "type": "String", "max_length": 40, "default": "javascript:global.getNextObjNumberPadded();" },
+    { "label": "Student Name", "element": "u_student_name", "type": "Reference", "reference": "sys_user" },
+    { "label": "Faculty name", "element": "u_faculty_name", "type": "Reference", "reference": "sys_user" },
+    { "label": "Branch", "element": "u_branch", "type": "String (Choice)", "choices": ["ECE", "EEE", "CSE"] },
+    { "label": "Email", "element": "u_email", "type": "String", "max_length": 40 },
+    { "label": "Phone Number", "element": "u_phone_number", "type": "String", "max_length": 40 },
+    { "label": "Description", "element": "u_description", "type": "String", "max_length": 1000 }
+  ],
+  "number_prefix": "INS"
+}

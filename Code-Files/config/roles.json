@@ -1,0 +1,9 @@
+{
+  "roles": [
+    { "name": "bb1", "purpose": "READ - view EEE branch records" },
+    { "name": "bb2", "purpose": "CREATE - New button" },
+    { "name": "bb3", "purpose": "WRITE - edit records" },
+    { "name": "bb4", "purpose": "DELETE - delete records" }
+  ],
+  "user": { "user_name": "EEEUser", "first_name": "EEE", "last_name": "User", "email": "eeeuser@gmail.com", "assign_roles": ["bb1", "bb2", "bb3", "bb4"] }
+}

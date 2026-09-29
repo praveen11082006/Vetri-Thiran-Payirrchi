@@ -1,0 +1,11 @@
+{
+  "table": "u_institution_details",
+  "decision_type": "Allow If",
+  "admin_overrides": true,
+  "acls": [
+    { "operation": "read",   "role": "bb1", "advanced": true, "data_condition": "Branch is EEE", "script": "src/acl/read_acl.script.js" },
+    { "operation": "create", "role": "bb2", "advanced": false },
+    { "operation": "write",  "role": "bb3", "advanced": false },
+    { "operation": "delete", "role": "bb4", "advanced": false }
+  ]
+}
